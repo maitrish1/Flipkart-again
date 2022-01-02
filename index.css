@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    padding-top: 10px;
+    background-color: #2874f0;
+    height:60px;
+}
+.header .header-list{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2874f0;
+    align-items: center;
+}
+
+.header-list li{
+    list-style-type: none;
+}
+.header-list li a{
+    text-decoration: none;
+}
+
+.flipkart-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.options{
+    padding: 10px;
+}
+.options .options-list{
+    display: flex;
+    justify-content:space-around;
+}
+
+.options .options-list li{
+    list-style-type: none;
+    justify-content: space-around;
+}
+.options .options-list li a img{
+    width: 60px;
+    height: auto;
+}
+.options .options-list li a{
+    text-decoration: none;
+}
+
+.dealoftheday .dealoftheday-list{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.dealoftheday-list li{
+    list-style-type: none;
+}
+.dealoftheday .dealoftheday-list li a{
+    text-decoration: none;
+}
